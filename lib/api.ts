@@ -75,7 +75,7 @@ export async function createProduct(product: ProductCreate) {
       );
     }
 
-    if (Array.isArray(errorData.detail)) {
+    if (errorData && Array.isArray(errorData.detail)) { {
       const errorMessage = errorData.detail
         .map((error) => {
           const field = error.loc
