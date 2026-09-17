@@ -11,7 +11,7 @@ import {
 
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL ||
-  "http://127.0.0.1:8000";
+  "https://nandhini-agency.onrender.com";
 
 const PHONE_NUMBER = "916380347893";
 const DISPLAY_PHONE_NUMBER = "6380347893";

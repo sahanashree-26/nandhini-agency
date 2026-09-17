@@ -69,7 +69,7 @@ const CART_STORAGE_KEY = "nandhini-agency-cart";
 const CUSTOMER_STORAGE_KEY = "nandhini-agency-customer";
 const ORDER_STORAGE_KEY = "nandhini-agency-last-order";
 
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://nandhini-agency.onrender.com";
 
 function formatMoney(value: number) {
   return value.toLocaleString("en-IN", {
