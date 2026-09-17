@@ -91,7 +91,7 @@ export async function createProduct(product: ProductCreate) {
       throw new Error(errorMessage);
     }
 
-    if (typeof errorData.detail === "string") {
+    if (errorData && typeof errorData.detail === "string") {
       throw new Error(errorData.detail);
     }
 
